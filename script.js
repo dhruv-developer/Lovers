@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const yesButtons = document.querySelectorAll('.yes-button');
     yesButtons.forEach(button => {
         button.addEventListener('click', function() {
-            if (window.location.pathname.includes('index')) {
+            if (window.location.pathname.includes('index.html')) {
                 window.location.href = 'data.html';
-            } else if (window.location.pathname.includes('data')) {
+            } else if (window.location.pathname.includes('data.html')) {
                 window.location.href = 'final.html';
             }
         });
