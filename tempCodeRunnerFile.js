@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
     yesButtons.forEach(button => {
         button.addEventListener('click', function() {
             if (window.location.pathname.includes('index')) {
-                window.location.href = 'data.html';
+                window.location.href = 'Impress/data.html';
             } else if (window.location.pathname.includes('data')) {
-                window.location.href = 'final.html';
+                window.location.href = 'Impress/final.html';
             }
         });
     });
